@@ -6,20 +6,20 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
      * ┌───┬───┬───┬───┬───┐   ┌───┬───┬───┬───┬───┐
-     * │ Q │ W │ E │ R │ T │   │ Y │ U │ I │ O │ P │
+     * │ Q │ W │ F │ P │ B │   │ J │ L │ U │ Y │ ; │
      * ├───┼───┼───┼───┼───│   │───┼───┼───┼───┼───┤
-     * │ A │ S │ D │ F │ G │   │ H │ J │ K │ L │ ; │
+     * │ A │ R │ S │ T │ G │   │ M │ N │ E │ I │ O │
      * ├───┼───┼───┼───┼───│   │───┼───┼───┼───┼───┤
-     * │ Z │ X │ C │ V │ B │   │ N │ M │ , │ . │ / │
+     * │ Z │ X │ C │ D │ V │   │ K │ H │ , │ . │ / │
      * └───┴───┴───┼───┼───│   │───┼───┼───┴───┴───┘
      *             │Ent│Tab│   │Bsp│Spc│
      *             └───┴───┘   └───┴───┘
      */
 
     [0] = LAYOUT(
-    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,        KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
-    SFT_T(KC_A),ALT_T(KC_S),CTL_T(KC_D),GUI_T(KC_F), KC_G,    KC_H, GUI_T(KC_J),CTL_T(KC_K),ALT_T(KC_L),SFT_T(KC_SCLN),
-    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,        KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
+    KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,        KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,
+    SFT_T(KC_A),ALT_T(KC_R),CTL_T(KC_S),GUI_T(KC_T), KC_G,    KC_M, GUI_T(KC_N),CTL_T(KC_E),ALT_T(KC_I),SFT_T(KC_O),
+    KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,        KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH,
                           LT(2,KC_ENT), KC_TAB,      KC_BSPC,  LT(1,KC_SPC)
     ),
     [1] = LAYOUT(
