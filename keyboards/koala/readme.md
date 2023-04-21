@@ -5,7 +5,7 @@
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [currentKB](https://github.com/currentKB)
-* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Supported: koala, pro-micro *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):

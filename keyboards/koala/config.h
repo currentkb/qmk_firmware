@@ -5,7 +5,7 @@
 
 /*
  * Feature disable options
- *  These options are also useful to firmware size reduction.
+ * These options are also useful to firmware size reduction.
  */
 
 /* disable debug print */
